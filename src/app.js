@@ -41,8 +41,8 @@ const employeeManage = async () => {
                 console.table(await getEmployeesByDepartment(departmentId));
                 break;
             case 'Add a Department':
-                const name = await departmentPrompt();
-                await addDepartment(name);
+                const { departmentName } = await departmentPrompt();
+                await addDepartment(departmentName);
                 console.log('Department added successfully!');
                 break;
             case 'Add a Role':
@@ -99,7 +99,8 @@ const employeeManage = async () => {
                 console.log('Employee deleted successfully!');
                 break;
             case 'Exit':
-                exit = true;
+                console.log('Goodbye!');
+                process.exit(0);
                 break;
             default:
                 console.log("Invalid option. Please try again.");
