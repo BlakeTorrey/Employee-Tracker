@@ -43,6 +43,15 @@ export const departmentPrompt = async (departments, isForBudget = false) => {
         type: 'input',
         name: 'departmentName',
         message: 'What is the name of the department?',
+        validate: input => {
+            if (input.length > 30) {
+                return 'Department name must be 30 characters or less';
+            }
+            if (input.length === 0) {
+                return 'Please enter a department name';
+            }
+            return true;
+        }
     }]);
 };
 
