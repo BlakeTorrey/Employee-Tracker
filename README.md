@@ -5,7 +5,7 @@ A command-line application for managing company departments, roles, and employee
 https://drive.google.com/file/d/1hO4wGfS3HVPPJCgYi0MdqYXuU7cyXnw8/view
 
 ## Screenshots
-![List]([/public/Screenshot%202025-02-05%20150114.jpg)) 
+![List](/public/Screenshot%202025-02-05%20150114.jpg)
 
 ![Options](/public/Screenshot%202025-02-05%20150047.png)   
 
