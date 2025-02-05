@@ -1,12 +1,12 @@
-# Employee Tracker 🏢
+# Employee Tracker 
 A command-line application for managing company departments, roles, and employees. Users can view, add, update, or remove departments, roles (including salaries), and employees (including name, title, department, salary, and manager).
 
-## 📽️ Demo
+## Demo
 [Watch the Video Demo](#https://drive.google.com/file/d/1hO4wGfS3HVPPJCgYi0MdqYXuU7cyXnw8/view) 
 
-## 🖼️ Screenshots
-![Screenshot 1](#https://github.com/BlakeTorrey/Employee-Tracker/blob/main/public/Screenshot%202025-02-05%20150047.png)   
-![Screenshot 2](#public/Screenshot 2025-02-05 150114.jpg) 
+## Screenshots
+![Options](/public/Screenshot%202025-02-05%20150047.png)   
+![List]([/public/Screenshot%202025-02-05%20150114.jpg)) 
 
 ## ✨ Features
 - 📊 View all departments, roles, and employees
